@@ -1,0 +1,96 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background:linear-gradient(to right,#f700ff,rgb(132, 0, 255));
+}
+h1, h2 {
+    margin: 0;
+    padding: 0;
+    color: aqua;
+}
+p {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+/* Style the header section */
+header {
+    text-align: center;
+    padding: 50px;
+}
+span {
+    color: hsl(60, 36%, 4%);
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .col-1{
+    flex: 1;
+    padding: 10px;
+    border: 1px;
+    text-align: center;
+  }
+  .col-2{
+    flex: 1;
+    padding: 10px;
+    border: 1px;
+    text-align: center;
+  }
+  .col-3{
+    flex: 1;
+    padding: 10px;
+    border: 1px;
+    text-align: center;
+  }
+  .col-1 img{
+    height: 80%;
+    width: 80%;
+  }
+  .col-3 img{
+    height: 80%;
+    width: 80%;
+  }
+/* Style the feature section */
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.feature {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the call-to-action section */
+.call-to-action {
+    text-align: center;
+    padding: 50px;
+}
+
+/* Style the button */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #a9f006;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+footer {
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
